@@ -4,7 +4,7 @@ import './App.css'; // Import your CSS file
 const API_KEY = "ed6b37c2b67c4d39972a4583a2b14c1d";
 const url = "https://newsapi.org/v2/everything?q=";
 
-const NewsApp = () => {
+const App = () => {
     const [articles, setArticles] = useState([]);
     const [currentQuery, setCurrentQuery] = useState("India");
     const [activeNav, setActiveNav] = useState(null);
@@ -80,4 +80,4 @@ const NewsApp = () => {
     );
 };
 
-export default NewsApp;
+export default App;
